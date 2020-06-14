@@ -89,6 +89,7 @@ func main() {
 				Description: "A discord webhook sent with Go",
 				Color:       (255 << 16) | (0 << 8) | 100,
 				Timestamp:   time.Now().Format(time.RFC3339)
+			}
 		},
 	}
 
