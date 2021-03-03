@@ -1,4 +1,3 @@
-# Usage
 ## Send webhook directly
 ```go
 package main
@@ -66,7 +65,7 @@ package main
 import (
 	"time"
 
-	"github.com/LoudPacks/disgord-webhook/disgord"
+	"github.com/jgb14002/disgord-webhook/disgord"
 )
 
 func main() {
@@ -76,8 +75,8 @@ func main() {
 	}
 
 	jsonBody := disgord.WebHookJSONBody{
-		Username:  "LoudPacks",
-		AvatarURL: "https://avatars3.githubusercontent.com/u/32648600?s=460&u=c13e23efd4bca1aaca605b0874174fcaf580db9d&v=4",
+		Username:  "TestUser",
+		AvatarURL: "https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg",
 		Embeds: []disgord.EmbedObject{
 			{
 				Title:       "Sample Webhook",
